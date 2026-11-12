@@ -1,0 +1,6 @@
+url: https://github.com/gabrielbav/dsh-plugin-session-delete
+name: gabrielbav/dsh-plugin-session-delete
+category: session
+description:
+  en: 'Adds Delete session (a trash button beside Archive and a session-menu item) and Delete workspace and sessions (workspace menu). After confirmation it removes the session log folder with its subagent sessions and its workspace and pin entries. Running sessions and logs held by another process are kept, and a session loaded since DSH started is kept until a restart unless the session controller provides `releaseAgent`.'
+  zh: '新增“删除会话”（归档按钮旁的垃圾桶按钮及会话菜单项）和“删除工作区及其会话”（工作区菜单）。确认后删除会话日志目录及其子代理会话，并移除工作区与置顶记录。运行中的会话和被其他进程占用的日志会保留；DSH 启动后加载过的会话需重启后才能删除，除非会话控制器提供 `releaseAgent`。'
